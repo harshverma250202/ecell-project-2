@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    color: white;
+    font-style:italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  
+
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+ 
+  .header {
+    padding: 6px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    background-image: url(backtop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    border-style: solid;
+    font-size: x-large;
+    
+  }
+  
+  
+  .navbar {
+    display: flex;
+    background-color: rgb(33 37 42);
+   /* position: sticky;
+    top: 0;
+    overflow: hidden;*/
+    
+    
+  }
+  
+  
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+  
+   
+  }
+  .tgg{
+   text-align: center;
+   padding: 0px;
+   margin: 0px;
+
+
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  
+  /* Column container */
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+  }
+  
+  .side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 30px;
+    background-image: url(andrew-schultz-EAlbsTo6nuQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid; 
+    border-radius:15px;
+    font-size: x-large;
+  }
+  
+  
+  
+  .main {
+    flex: 70%;
+   background-image: url(aethrum-im68WOslgPo-unsplash.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom;
+   
+   border-radius:15px;
+    padding: 20px;
+    font-size: x-large;
+    
+
+  }
+  td{
+    padding: 5px;
+  }
+    
+  /* Footer */
+  .footer {
+   
+    text-align: center;
+    background: rgb(37, 37, 37);
+    border-style: solid;
+  
+  }
+  img{
+
+    height: 300px;
+   
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+    
+    border-radius: 50%;
+    border-style: solid;
+    
+  }
+  span{
+
+    text-align: center;
+    width: auto;
+    font-size: xx-large;
+  }
+ .fas{
+
+ font-weight: bolder;
+ }
+
+a{
+
+  font-size: x-large;
+  padding: 20px;
+
+}
+hr{
+  height: 0px;
+  width: 0px;
+}
+input[type="text"],
+input[type="email"],
+input[type="submit"]{
+    width: 50%;
+    padding: 1vw;
+   background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+textarea{
+  width: 50%;
+    padding: 1vw;
+   background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.tgg a:hover{
+ 
+  color: aqua;
+}
+
+  
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }
+
+
+
+
+
